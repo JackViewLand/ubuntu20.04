@@ -1,0 +1,11 @@
+version: "3"
+services:
+    ubuntu_1:
+        build: 
+            dockerfile: Dockerfile
+        image: ubuntu:20.04.1
+        container_name: ubuntu_1
+        network_mode: host
+        #volumes:
+        #  - ./tmp:/tmp
+        #command: ./tmp/setup.sh
