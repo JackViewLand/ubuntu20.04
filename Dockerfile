@@ -13,6 +13,7 @@ RUN \
        make \
        net-tools \
        iputils-ping \
-       netcat
+       netcat \
+       git
 
 CMD ["tail","-f","/dev/null"]

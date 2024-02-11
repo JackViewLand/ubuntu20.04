@@ -1,8 +1,8 @@
 version: "3"
 services:
-    ubuntu_1:
+    ubuntu:
         build: 
             dockerfile: Dockerfile
         image: ubuntu:20.04.1
-        container_name: ubuntu_1
+        container_name: ubuntu20.04
         network_mode: host
